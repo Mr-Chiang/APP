@@ -1,0 +1,24 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index",
+			"style": {
+				"navigationBarTitleText": "丶随乐"
+			}
+		}
+	],
+	"globalStyle": {
+		// "navigationStyle": "custom",
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "丶随乐",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar":{
+		// "list":[
+		// 	{"text":"机器翻译","pagePath":"pages/index/translator"},
+		// 	{"text":"B","pagePath":"pages/index/index"},
+		// 	{"text":"人脸识别","pagePath":"pages/index/face_detectface"}
+		// ]
+	}
+}
