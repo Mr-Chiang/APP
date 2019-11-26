@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "丶随乐",
+  "usingComponents": {
+    "footer": "/pages/base/footer",
+    "translation": "/pages/index/translation",
+    "face-detectface": "/pages/index/face/face_detectface",
+    "handwritingocr": "/pages/index/ocr/handwritingocr"
+  }
+}

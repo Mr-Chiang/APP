@@ -1,0 +1,1 @@
+<block wx:if="{{loadStatus}}"><view class="cu-load load-modal"><image src="/static/logo.png" mode="aspectFit"></image><view class="gray-text">{{loadText}}</view></view></block>

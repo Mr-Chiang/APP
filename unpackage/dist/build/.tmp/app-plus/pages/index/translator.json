@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "丶随乐",
+  "usingComponents": {
+    "uni-load-more": "/components/uni-load-more/uni-load-more"
+  }
+}
