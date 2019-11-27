@@ -22,5 +22,15 @@
 	font-size: 36rpx;
 	color: #8f8f94;
 }
+.text.data-v-223d2072{
+	height: auto;
+	min-height: 300rpx;
+}
+.result.data-v-223d2072{
+	width:90%;
+    border:#8F8F94 solid 1px;
+	min-height: 300rpx;
+	text-align: left;
+}
 
 

@@ -1,12 +1,14 @@
 import Vue from 'vue';
 import App from './App';
 import {apis,baseUrl} from './common/js/api.js';//api文件
+import systemFun from './common/js/systemFun.js';//api文件
 import uniLoadMore from "./components/uni-load-more/uni-load-more.vue"
 import cuCustom from './components/colorui/components/cu-custom.vue'
 Vue.component('cu-custom',cuCustom);
 Vue.component('load',uniLoadMore);
 Vue.config.productionTip = false;
 Vue.prototype.apis = apis;
+Vue.prototype.systemFun = systemFun;
 Vue.prototype.baseUrl = baseUrl;
 
 App.mpType = 'app';

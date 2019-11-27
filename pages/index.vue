@@ -27,7 +27,7 @@
 		},
 		data() {
 			return {
-				currentView:'Translation'
+				currentView:'Handwritingocr'
 			}
 			
 		},
@@ -47,12 +47,18 @@
 	.base{
 		display: flex;
 		flex-direction: column;
-		height: 93vh;
+		height: 100vh;
 		justify-content: flex-start;
-		position:relative
+		position:relative;
+	}
+	.content::-webkit-scrollbar {
+		display: none;
 	}
 	.content{
 		height: inherit;
+		max-height: 90vh;
+		/* display:flex; */
+		overflow:auto;
 	}
 	.footer{
 		width: 100%;

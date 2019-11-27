@@ -1201,25 +1201,22 @@ Z([3,'title data-v-8b31595e'])
 Z([a,[[7],[3,'title']]])
 Z([3,'text-area data-v-8b31595e'])
 Z([3,'width:90%;border:#8F8F94 solid 1px;margin:10rpx 0;'])
-Z([3,'__e'])
-Z([3,'uni-input data-v-8b31595e'])
-Z([3,'search'])
-Z([[4],[[5],[[4],[[5],[[5],[1,'input']],[[4],[[5],[[4],[[5],[[5],[1,'__set_model']],[[4],[[5],[[5],[[5],[[5],[1,'']],[1,'text']],[1,'$event']],[[4],[[5]]]]]]]]]]]]])
-Z([3,'请输入要翻译的语句'])
-Z([3,'height:auto;min-height:100rpx;'])
-Z([3,'text'])
-Z([[7],[3,'text']])
-Z(z[5])
 Z([3,'data-v-8b31595e'])
-Z([[4],[[5],[[4],[[5],[[5],[1,'tap']],[[4],[[5],[[4],[[5],[1,'search']]]]]]]]])
+Z([[2,'+'],[[7],[3,'images_url']],[1,'_cut']])
+Z([3,'__e'])
+Z(z[5])
+Z([[4],[[5],[[4],[[5],[[5],[1,'tap']],[[4],[[5],[[4],[[5],[1,'selectPicture']]]]]]]]])
 Z([3,'width:50%;margin-bottom:10rpx;'])
 Z([3,'warn'])
 Z([3,'从相册选取'])
 Z([3,'__l'])
-Z(z[14])
+Z(z[5])
 Z([[7],[3,'loadModal']])
 Z([[7],[3,'loadModalText']])
 Z([3,'1'])
+Z([3,'result data-v-8b31595e'])
+Z([3,'true'])
+Z([a,[[7],[3,'content']]])
 })(__WXML_GLOBAL__.ops_cached.$gwx_6);return __WXML_GLOBAL__.ops_cached.$gwx_6
 }
 function gz$gwx_7(){
@@ -1232,11 +1229,10 @@ Z([a,[[7],[3,'title']]])
 Z([3,'text-area data-v-223d2072'])
 Z([3,'width:90%;border:#8F8F94 solid 1px;margin:10rpx 0;'])
 Z([3,'__e'])
-Z([3,'uni-input data-v-223d2072'])
+Z(z[5])
+Z([3,'uni-input text data-v-223d2072'])
 Z([3,'search'])
-Z([[4],[[5],[[4],[[5],[[5],[1,'input']],[[4],[[5],[[4],[[5],[[5],[1,'__set_model']],[[4],[[5],[[5],[[5],[[5],[1,'']],[1,'text']],[1,'$event']],[[4],[[5]]]]]]]]]]]]])
-Z([3,'请输入要翻译的语句'])
-Z([3,'height:auto;min-height:100rpx;'])
+Z([[4],[[5],[[5],[[4],[[5],[[5],[1,'focus']],[[4],[[5],[[4],[[5],[[5],[1,'e0']],[[4],[[5],[1,'$event']]]]]]]]]],[[4],[[5],[[5],[1,'input']],[[4],[[5],[[4],[[5],[[5],[1,'__set_model']],[[4],[[5],[[5],[[5],[[5],[1,'']],[1,'text']],[1,'$event']],[[4],[[5]]]]]]]]]]]]])
 Z([3,'text'])
 Z([[7],[3,'text']])
 Z(z[5])
@@ -1245,11 +1241,10 @@ Z([[4],[[5],[[4],[[5],[[5],[1,'tap']],[[4],[[5],[[4],[[5],[1,'search']]]]]]]]])
 Z([3,'width:50%;margin-bottom:10rpx;'])
 Z([3,'warn'])
 Z([3,'查询'])
-Z(z[14])
-Z([3,'width:90%;border:#8F8F94 solid 1px;min-height:200rpx;text-align:left;'])
+Z([3,'result data-v-223d2072'])
 Z([a,[[7],[3,'content']]])
 Z([3,'__l'])
-Z(z[14])
+Z(z[13])
 Z([[7],[3,'loadModal']])
 Z([[7],[3,'loadModalText']])
 Z([3,'1'])
@@ -1469,15 +1464,19 @@ var xAC=_oz(z,2,e,s,gg)
 _(o0B,xAC)
 _(b9B,o0B)
 var oBC=_mz(z,'view',['class',3,'style',1],[],e,s,gg)
-var fCC=_mz(z,'input',['bindinput',5,'class',1,'confirmType',2,'data-event-opts',3,'placeholder',4,'style',5,'type',6,'value',7],[],e,s,gg)
+var fCC=_mz(z,'image',['class',5,'src',1],[],e,s,gg)
 _(oBC,fCC)
 _(b9B,oBC)
-var cDC=_mz(z,'button',['bindtap',13,'class',1,'data-event-opts',2,'style',3,'type',4],[],e,s,gg)
-var hEC=_oz(z,18,e,s,gg)
+var cDC=_mz(z,'button',['bindtap',7,'class',1,'data-event-opts',2,'style',3,'type',4],[],e,s,gg)
+var hEC=_oz(z,12,e,s,gg)
 _(cDC,hEC)
 _(b9B,cDC)
-var oFC=_mz(z,'load',['bind:__l',19,'class',1,'status',2,'text',3,'vueId',4],[],e,s,gg)
+var oFC=_mz(z,'load',['bind:__l',13,'class',1,'status',2,'text',3,'vueId',4],[],e,s,gg)
 _(b9B,oFC)
+var cGC=_mz(z,'text',['class',18,'selectable',1],[],e,s,gg)
+var oHC=_oz(z,20,e,s,gg)
+_(cGC,oHC)
+_(b9B,cGC)
 _(r,b9B)
 return r
 }
@@ -1485,28 +1484,29 @@ e_[x[5]]={f:m5,j:[],i:[],ti:[],ic:[]}
 d_[x[6]]={}
 var m6=function(e,s,r,gg){
 var z=gz$gwx_7()
-var oHC=_n('view')
-_rz(z,oHC,'class',0,e,s,gg)
-var lIC=_n('text')
-_rz(z,lIC,'class',1,e,s,gg)
-var aJC=_oz(z,2,e,s,gg)
-_(lIC,aJC)
-_(oHC,lIC)
-var tKC=_mz(z,'view',['class',3,'style',1],[],e,s,gg)
-var eLC=_mz(z,'input',['bindinput',5,'class',1,'confirmType',2,'data-event-opts',3,'placeholder',4,'style',5,'type',6,'value',7],[],e,s,gg)
+var aJC=_n('view')
+_rz(z,aJC,'class',0,e,s,gg)
+var tKC=_n('text')
+_rz(z,tKC,'class',1,e,s,gg)
+var eLC=_oz(z,2,e,s,gg)
 _(tKC,eLC)
-_(oHC,tKC)
-var bMC=_mz(z,'button',['bindtap',13,'class',1,'data-event-opts',2,'style',3,'type',4],[],e,s,gg)
-var oNC=_oz(z,18,e,s,gg)
+_(aJC,tKC)
+var bMC=_mz(z,'view',['class',3,'style',1],[],e,s,gg)
+var oNC=_mz(z,'textarea',['bindfocus',5,'bindinput',1,'class',2,'confirmType',3,'data-event-opts',4,'type',5,'value',6],[],e,s,gg)
 _(bMC,oNC)
-_(oHC,bMC)
-var xOC=_mz(z,'view',['class',19,'style',1],[],e,s,gg)
-var oPC=_oz(z,21,e,s,gg)
+_(aJC,bMC)
+var xOC=_mz(z,'button',['bindtap',12,'class',1,'data-event-opts',2,'style',3,'type',4],[],e,s,gg)
+var oPC=_oz(z,17,e,s,gg)
 _(xOC,oPC)
-_(oHC,xOC)
-var fQC=_mz(z,'load',['bind:__l',22,'class',1,'status',2,'text',3,'vueId',4],[],e,s,gg)
-_(oHC,fQC)
-_(r,oHC)
+_(aJC,xOC)
+var fQC=_n('view')
+_rz(z,fQC,'class',18,e,s,gg)
+var cRC=_oz(z,19,e,s,gg)
+_(fQC,cRC)
+_(aJC,fQC)
+var hSC=_mz(z,'load',['bind:__l',20,'class',1,'status',2,'text',3,'vueId',4],[],e,s,gg)
+_(aJC,hSC)
+_(r,aJC)
 return r
 }
 e_[x[6]]={f:m6,j:[],i:[],ti:[],ic:[]}
@@ -1643,16 +1643,16 @@ __wxAppCode__['components/uni-load-more/uni-load-more.wxml']=$gwx('./components/
 __wxAppCode__['pages/base/footer.wxss']=undefined;    
 __wxAppCode__['pages/base/footer.wxml']=$gwx('./pages/base/footer.wxml');
 
-__wxAppCode__['pages/index.wxss']=setCssToHead([".",[1],"base.",[1],"data-v-37ee0650{ display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column; height: 93vh; -webkit-box-pack: start; -webkit-justify-content: flex-start; -ms-flex-pack: start; justify-content: flex-start; position:relative }\n.",[1],"content.",[1],"data-v-37ee0650{ height: inherit; }\n.",[1],"footer.",[1],"data-v-37ee0650{ width: 100%; position: absolute; bottom: 0; x:0 }\n",],undefined,{path:"./pages/index.wxss"});    
+__wxAppCode__['pages/index.wxss']=setCssToHead([".",[1],"base.",[1],"data-v-37ee0650{ display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column; height: 100vh; -webkit-box-pack: start; -webkit-justify-content: flex-start; -ms-flex-pack: start; justify-content: flex-start; position:relative; }\n.",[1],"content.",[1],"data-v-37ee0650::-webkit-scrollbar { display: none; }\n.",[1],"content.",[1],"data-v-37ee0650{ height: inherit; max-height: 90vh; overflow:auto; }\n.",[1],"footer.",[1],"data-v-37ee0650{ width: 100%; position: absolute; bottom: 0; x:0 }\n",],undefined,{path:"./pages/index.wxss"});    
 __wxAppCode__['pages/index.wxml']=$gwx('./pages/index.wxml');
 
 __wxAppCode__['pages/index/face/face_detectface.wxss']=setCssToHead([".",[1],"base.",[1],"data-v-ede8e802 { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; }\n.",[1],"text-area.",[1],"data-v-ede8e802 { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; }\n.",[1],"text-area.",[1],"data-v-ede8e802 { font-size: ",[0,36],"; color: #8f8f94; }\n",],undefined,{path:"./pages/index/face/face_detectface.wxss"});    
 __wxAppCode__['pages/index/face/face_detectface.wxml']=$gwx('./pages/index/face/face_detectface.wxml');
 
-__wxAppCode__['pages/index/ocr/handwritingocr.wxss']=setCssToHead([".",[1],"base.",[1],"data-v-8b31595e{ display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; }\n.",[1],"title.",[1],"data-v-8b31595e { font-size: ",[0,36],"; color: #8f8f94; }\n",],undefined,{path:"./pages/index/ocr/handwritingocr.wxss"});    
+__wxAppCode__['pages/index/ocr/handwritingocr.wxss']=setCssToHead([".",[1],"base.",[1],"data-v-8b31595e{ display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; }\n.",[1],"title.",[1],"data-v-8b31595e { font-size: ",[0,36],"; color: #8f8f94; }\n.",[1],"result.",[1],"data-v-8b31595e{ height:auto; width:90%; }\n",],undefined,{path:"./pages/index/ocr/handwritingocr.wxss"});    
 __wxAppCode__['pages/index/ocr/handwritingocr.wxml']=$gwx('./pages/index/ocr/handwritingocr.wxml');
 
-__wxAppCode__['pages/index/translation.wxss']=setCssToHead([".",[1],"base.",[1],"data-v-223d2072{ display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; }\n.",[1],"title.",[1],"data-v-223d2072 { font-size: ",[0,36],"; color: #8f8f94; }\n",],undefined,{path:"./pages/index/translation.wxss"});    
+__wxAppCode__['pages/index/translation.wxss']=setCssToHead([".",[1],"base.",[1],"data-v-223d2072{ display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; }\n.",[1],"title.",[1],"data-v-223d2072 { font-size: ",[0,36],"; color: #8f8f94; }\n.",[1],"text.",[1],"data-v-223d2072{ height: auto; min-height: ",[0,300],"; }\n.",[1],"result.",[1],"data-v-223d2072{ width:90%; border:#8F8F94 solid 1px; min-height: ",[0,300],"; text-align: left; }\n",],undefined,{path:"./pages/index/translation.wxss"});    
 __wxAppCode__['pages/index/translation.wxml']=$gwx('./pages/index/translation.wxml');
 
 ;var __pageFrameEndTime__ = Date.now();

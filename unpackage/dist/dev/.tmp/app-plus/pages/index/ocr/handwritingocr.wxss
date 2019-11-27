@@ -22,5 +22,9 @@
 	font-size: 36rpx;
 	color: #8f8f94;
 }
+.result.data-v-8b31595e{
+	height:auto;
+	width:90%;
+}
 
 

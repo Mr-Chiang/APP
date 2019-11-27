@@ -3,11 +3,13 @@
 		
 		<text class="title">{{title}}</text>
 		<view class="text-area" style="width:90%; border:#8F8F94 solid 1px;margin: 10rpx 0;">
-			<input class="uni-input" v-model="text" type="text" confirm-type='search'  style='height: auto;min-height: 100rpx;' placeholder="请输入要翻译的语句" />
+			<textarea class="uni-input text" v-model="text" type="text" @focus="function(){
+				this.text = '';
+			}" confirm-type='search'></textarea>
 		</view>			
 		<button type="warn" style="width: 50%;margin-bottom: 10rpx;" @click="search()">查询</button>
 		<!-- <uni-load-more :status="more" :content-text="contentText"  style="margin-bottom: 15rpx;" id="loding"></uni-load-more> -->
-		<view  style="width:90%; border:#8F8F94 solid 1px;min-height: 200rpx;text-align: left;">{{content}}</view>
+		<view class="result">{{content}}</view>
 		
 		<load :status="loadModal" :text="loadModalText"></load>
 	</view>
@@ -18,7 +20,7 @@
 			return {
 				loadModal:false,
 				loadModalText:'翻译中...',
-				text:'',
+				text:'请输入要翻译的语句',
 				content:'结果：',
 				title: 'AI Lab翻译',
 				type:0
@@ -70,6 +72,16 @@
 	.title {
 		font-size: 36rpx;
 		color: #8f8f94;
+	}
+	.text{
+		height: auto;
+		min-height: 300rpx;
+	}
+	.result{
+		width:90%;
+	    border:#8F8F94 solid 1px;
+		min-height: 300rpx;
+		text-align: left;
 	}
 
 </style>

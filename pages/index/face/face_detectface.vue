@@ -136,8 +136,6 @@
 				task.start();
 			}
 
-			
-	
 		},
 		onLoad() {
 			this.face_detectface();

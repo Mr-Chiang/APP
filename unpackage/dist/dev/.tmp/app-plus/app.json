@@ -16,7 +16,7 @@
     "autoclose": false
   },
   "appname": "丶随乐",
-  "compilerVersion": "2.3.7",
+  "compilerVersion": "2.4.2",
   "usingComponents": {
     "cu-custom": "/components/colorui/components/cu-custom",
     "load": "/components/uni-load-more/uni-load-more"

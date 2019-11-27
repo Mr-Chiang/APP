@@ -9,15 +9,21 @@
 	-webkit-flex-direction: column;
 	    -ms-flex-direction: column;
 	        flex-direction: column;
-	height: 93vh;
+	height: 100vh;
 	-webkit-box-pack: start;
 	-webkit-justify-content: flex-start;
 	    -ms-flex-pack: start;
 	        justify-content: flex-start;
-	position:relative
+	position:relative;
+}
+.content.data-v-37ee0650::-webkit-scrollbar {
+	display: none;
 }
 .content.data-v-37ee0650{
 	height: inherit;
+	max-height: 90vh;
+	/* display:flex; */
+	overflow:auto;
 }
 .footer.data-v-37ee0650{
 	width: 100%;

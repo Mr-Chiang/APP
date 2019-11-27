@@ -106,7 +106,7 @@
 /******/ 		if(installedCssChunks[chunkId]) promises.push(installedCssChunks[chunkId]);
 /******/ 		else if(installedCssChunks[chunkId] !== 0 && cssChunks[chunkId]) {
 /******/ 			promises.push(installedCssChunks[chunkId] = new Promise(function(resolve, reject) {
-/******/ 				var href = "" + ({"components/colorui/components/cu-custom":"components/colorui/components/cu-custom","components/uni-load-more/uni-load-more":"components/uni-load-more/uni-load-more","pages/index/face/face_detectface":"pages/index/face/face_detectface","pages/base/footer":"pages/base/footer","pages/index/ocr/handwritingocr":"pages/index/ocr/handwritingocr","pages/index/translation":"pages/index/translation"}[chunkId]||chunkId) + ".wxss";
+/******/ 				var href = "" + ({"components/colorui/components/cu-custom":"components/colorui/components/cu-custom","components/uni-load-more/uni-load-more":"components/uni-load-more/uni-load-more","pages/index/face/face_detectface":"pages/index/face/face_detectface","pages/index/ocr/handwritingocr":"pages/index/ocr/handwritingocr","pages/base/footer":"pages/base/footer","pages/index/translation":"pages/index/translation"}[chunkId]||chunkId) + ".wxss";
 /******/ 				var fullhref = __webpack_require__.p + href;
 /******/ 				var existingLinkTags = document.getElementsByTagName("link");
 /******/ 				for(var i = 0; i < existingLinkTags.length; i++) {
